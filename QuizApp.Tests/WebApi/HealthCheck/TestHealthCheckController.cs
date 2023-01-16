@@ -1,3 +1,5 @@
+using QuizApp.WebApi.HealthCheck;
+
 namespace QuizApp.Tests.WebApi.HealthCheck;
 
 public class TestHealthCheckController
