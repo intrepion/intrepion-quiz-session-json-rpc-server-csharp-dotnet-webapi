@@ -12,5 +12,8 @@ public class TestHealthCheckController
 
         // Act
         var actualResult = controller.Get();
+
+        // Assert
+        actualResult.Should().BeOfType<OkObjectResult>();
     }
 }
