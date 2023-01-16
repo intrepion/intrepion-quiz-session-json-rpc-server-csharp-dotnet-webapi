@@ -9,5 +9,8 @@ public class TestHealthCheckController
     {
         // Arrange
         var controller = new HealthCheckController();
+
+        // Act
+        var actualResult = controller.Get();
     }
 }
