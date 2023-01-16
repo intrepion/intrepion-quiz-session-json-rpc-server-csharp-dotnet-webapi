@@ -17,5 +17,7 @@ public class TestHealthCheckController
 
         // Assert
         actualResult.Should().BeOfType<OkObjectResult>();
+        var okObjectResult = (OkObjectResult)actualResult;
+        okObjectResult.StatusCode.Should().Be(200);
     }
 }
