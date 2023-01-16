@@ -24,4 +24,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\QuizApp.WebApi\QuizApp.WebApi.csproj" />
+  </ItemGroup>
+
 </Project>
